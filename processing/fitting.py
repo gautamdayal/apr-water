@@ -26,7 +26,7 @@ for n in range(12):
         output = ''
         output += str(n+1) + ','
         output += str(i + 1) + ','
-        output += str(predict(n + 1 + ((i+1)/months[n]))[0]) + ',' + str(predict(n + 1 + ((i+1)/months[n]))[1]) + ','
+        output += str(predict(n + 1 + ((i+1)/months[n]))[0]) + ',' + str(predict(n + 1 + ((i+1)/months[n]))[1])
         output += '\n'
         outfile.write(output)
 
